@@ -1,49 +1,31 @@
+int romanValues['Z'] = {
+    ['I'] = 1,
+    ['V'] = 5,
+    ['X'] = 10,
+    ['L'] = 50,
+    ['C'] = 100,
+    ['D'] = 500,
+    ['M'] = 1000,
+};
+
 int romanToInt(char* s)
 {
     int total = 0;
     int current = 0;
-    int previous = 0;
+    int next = 0;
 
     for (; *s; s++)
     {
-        previous = current;
+        next = romanValues[(int)*(s+1)];
+        current = romanValues[(int)*s];
 
-        switch (*s)
+        if (current >= next)
         {
-            case 'I':
-            current = 1;
-            break;
-
-            case 'V':
-            current = 5;
-            break;
-
-            case 'X':
-            current = 10;
-            break;
-
-            case 'L':
-            current = 50;
-            break;
-
-            case 'C':
-            current = 100;
-            break;
-
-            case 'D':
-            current = 500;
-            break;
-
-            case 'M':
-            current = 1000;
-            break;
+            total += current;
         }
-
-        total += current;
-
-        if (previous != 0 && previous < current)
+        else
         {
-            total -= previous * 2;
+            total -= current;
         }
     }
 

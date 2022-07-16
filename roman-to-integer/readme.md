@@ -4,6 +4,6 @@ https://leetcode.com/problems/roman-to-integer/
 
 ## Submission
 
-> Runtime: 3 ms, faster than 97.34% of C online submissions for Roman to Integer.
+> Runtime: 0 ms, faster than 100.00% of C online submissions for Roman to Integer.
 >
-> Memory Usage: 5.9 MB, less than 53.04% of C online submissions for Roman to Integer.
+> Memory Usage: 5.8 MB, less than 83.13% of C online submissions for Roman to Integer.
