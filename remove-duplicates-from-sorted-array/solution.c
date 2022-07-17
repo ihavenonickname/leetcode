@@ -6,8 +6,8 @@ int removeDuplicates(int* nums, int numsSize)
     {
         if (nums[lastIndex] != nums[i])
         {
-            nums[lastIndex + 1] = nums[i];
             lastIndex += 1;
+            nums[lastIndex] = nums[i];
         }
     }
 
