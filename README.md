@@ -2,7 +2,7 @@
 
 Yeah, I know it's boring.
 
-When I have some free time I solve leetcode problems. My language of choice is C, although that can change in the future.
+When I have free time I solve leetcode problems. My language of choice is C, although that can change in the future. My compiler of choice is `clang`.
 
 All code is compiled with the following flags:
 
@@ -19,7 +19,7 @@ Just call `./run.sh` passing the exercise name (i.e. its folder) as argument.
 Example:
 
 ```sh
-./run climbing-stairs
+./run.sh climbing-stairs
 ```
 
 ## Index
@@ -36,4 +36,5 @@ The folders are usually displayed in alphabetical order by your file system. Her
 * [66. Plus One](./plus-one/)
 * [69. Sqrt(x)](./sqrtx/)
 * [70. Climbing Stairs](./climbing-stairs/)
+* [88. Merge Sorted Array](./merge-sorted-array/)
 * [412. Fizz Buzz](./fizz-buzz/)
