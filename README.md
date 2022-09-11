@@ -36,3 +36,4 @@ The folders are usually displayed in alphabetical order by your file system. Her
 * [66. Plus One](./plus-one/)
 * [69. Sqrt(x)](./sqrtx/)
 * [70. Climbing Stairs](./climbing-stairs/)
+* [412. Fizz Buzz](./fizz-buzz/)
