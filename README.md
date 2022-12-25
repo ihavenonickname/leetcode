@@ -39,4 +39,5 @@ The folders are usually displayed in alphabetical order by your file system. Her
 * [88. Merge Sorted Array](./merge-sorted-array/)
 * [94. Binary Tree Inorder Traversal](./binary-tree-inorder-traversal/)
 * [101. Symmetric Tree](./symmetric-tree/)
+* [104. Maximum Depth of Binary Tree](./maximum-depth-of-binary-tree/)
 * [412. Fizz Buzz](./fizz-buzz/)
